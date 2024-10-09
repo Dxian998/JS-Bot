@@ -1,0 +1,7 @@
+{
+    "token": "YOUR_TOKEN",
+    "clientId": "YOUR_CLIENT_ID",
+    "guildIds": ["guildId #1", "guildId #2"],
+    "maxLinesLog": 100
+}
+  
