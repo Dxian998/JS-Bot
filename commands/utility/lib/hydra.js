@@ -38,7 +38,7 @@ export default async function hydraSource(search_term, interaction, name, url) {
                 content: ``,
                 embeds: [new EmbedBuilder()
                     .setTitle(game['title'])
-                    .setDescription(`\`\`\`${game['uris'][0]}\`\`\``)
+                    .setDescription(`\`\`\`${game['urls'][0]}\`\`\``)
                     .setTimestamp(Date.parse(game['uploadDate']))
                     .setFooter({text: `${name} | ${game['fileSize']}`})],
                 components: []
